@@ -49,3 +49,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# gem 'rails', '3.2.21'
+gem 'rails', git: 'https://github.com/rails/rails.git', branch: '3-2-stable'
