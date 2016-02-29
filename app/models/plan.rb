@@ -1,3 +1,3 @@
 class Plan < ActiveRecord::Base
-    hany_many :users
+    has_many :users
 end
